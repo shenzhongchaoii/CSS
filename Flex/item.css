@@ -1,0 +1,30 @@
+#box {
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+#box div {
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+}
+
+#item1, #item6 {
+  order: 1;
+  /* flex-basis: 100px;
+  flex-shrink: 0.5; */
+  flex: 0 1 100px;
+  align-self: flex-end;
+}
+#item2, #item7 {
+  order: 3;
+}
+#item3, #item8 {
+  order: 2;
+}
+#item4, #item9 {
+  order: 5;
+  /* flex-grow: 2; */
+}
+#item5, #item10 {
+  order: 4;
+}

@@ -1,0 +1,93 @@
+#box {
+  /* flex-direction：决定容器主轴方向，即项目排列方向 */
+
+  /* (默认)水平方向，左开始 */
+  /* flex-direction: row; */
+
+  /* 水平方向，右开始 */
+  /* flex-direction: row-reverse; */ 
+
+  /* 垂直方向，上开始 */
+  /* flex-direction: column; */ 
+
+  /* 垂直方向，下开始 */
+  /* flex-direction: column-reverse; */ 
+
+
+
+  /* flex-wrap：决定项目在同一根轴线排列不下时的换行方式 */
+
+  /* (默认)不换行 */
+  /* flex-wrap: nowrap; */
+
+  /* 换行，从上方第一行开始从左到右 */
+  /* flex-wrap: wrap; */
+
+  /* 换行，从下方第一行开始从左到右 */
+  /* flex-wrap: wrap-reverse; */
+
+
+
+  /* flex-grow：flex-direction、flex-wrap 的简写 */
+  /* (默认)水平方向,不换行 */
+  /* flex-grow: row nowrap; */
+
+
+
+  /* justify-content: 决定项目在主轴上的对齐方式 */
+
+  /* (默认)对齐主轴开始位置 */
+  /* justify-content: flex-start; */
+
+  /* 对齐主轴结束位置 */
+  /* justify-content: flex-end; */ 
+
+  /* 水平居中 */
+  /* justify-content: center; */
+
+  /* 对齐主轴两端,项目之间间隔相等 */
+  /* justify-content: space-between; */
+
+  /* 对齐主轴两端,项目之间间隔相等,项目之间的间隔比项目与边框的间隔大一倍 */
+  /* justify-content: space-around; */
+
+
+
+  /* align-items: 决定项目在交叉上的对齐方式 */
+
+  /* 对齐交叉轴开始位置 */
+  /* align-items: flex-start; */
+
+  /* 对齐交叉轴结束位置 */
+  /* align-items: flex-end;  */
+
+  /* 垂直居中 */
+  /* align-items: center; */
+
+  /* 第一行文本在同一天基线上 */
+  /* align-items: baseline; */
+
+  /* (默认)如果项目未设置高度或者为 auto，将占满整个容器的高度 */
+  /* align-items: stretch; */
+
+
+
+  /* align-content: 定义了多根轴线的对齐方式,如果项目只有一个轴线,则该属性无作用 */
+  /* 对齐交叉轴开始位置 */
+  /* align-content: flex-start; */
+
+  /* 对齐交叉轴结束位置 */
+  /* align-content: flex-end; */
+
+  /* 对齐交叉轴中间 */
+  /* align-content: center; */
+
+  /* 对齐交叉轴两端,轴线之间间隔相等 */
+  /* align-content: space-between; */
+
+  /* 对齐交叉轴两端,轴线之间间隔相等,轴线之间的间隔比轴线与边框的间隔大一倍 */
+  /* align-content: space-around; */
+
+  /* (默认)轴线占满整个交叉轴 */
+  /* align-content: stretch; */
+}
